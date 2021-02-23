@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>guillaume veyrat, front-end developer // designer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="guillaume.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+</head>
+<body>
+    
+    <section id="mainContent">
+        <div id="un">
+
+<h1>guillaume veyrat</h1>
+
+<h2>front-end dev // designer</h2>
+        </div>
+        <div id="sunset">
+            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="sunset.html" onLoad="injectJS()">
+          </iframe>
+        </div>
+        <div id="trois">trois</div>
+        <div id="quatre">quatre</div>
+    </section>
+    
+    <script>
+        function injectJS() {
+    var iframe = document.getElementsByClassName("myFrame");
+var elmnt = iframe.contentWindow.document.getElementsByTagName("body")[0];
+        debugger;   
+elmnt.style.margin = "0";            
+        }
+    </script>
+
+</body>
+</html>
