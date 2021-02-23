@@ -3,7 +3,7 @@ body {background:#000;color:#FFF;}
 h1 {font-family:"Arial Bold"}
 body { font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;}
 
-#mainContent {display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;max-width:1200px;margin:0 auto;}
+#mainContent {display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;max-width:1200px;margin:0 auto;}
 #mainContent div {width:400px;height:400px;}
 iframe body {margin:0;}
 
