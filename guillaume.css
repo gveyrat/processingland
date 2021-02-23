@@ -7,12 +7,8 @@ body { font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewri
 #mainContent div {width:400px;height:400px;}
 iframe body {margin:0;}
 
-
-#un {background:red}
-#deux {background:green}
-#trois {background:black}
-#quatre {background:yellow}
+#un {display:flex;flex-direction:column;justify-content:center;align-items:center;}
 
 @media and screen (max-width:800px) {
-    #mainContent {max-width:480px;}
+    #mainContent {max-width:480px;justify-content:center;}
 }
