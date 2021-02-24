@@ -11,4 +11,5 @@ iframe body {margin:0;}
 
 @media and screen (max-width:800px) {
     #mainContent {max-width:480px;justify-content:center;}
+    body {width:100%;}
 }
