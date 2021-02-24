@@ -9,7 +9,7 @@ iframe body {margin:0;}
 
 #un {display:flex;flex-direction:column;justify-content:center;align-items:center;}
 
-@media and screen (max-width:800px) {
+@media screen and (max-width:800px) {
     #mainContent {max-width:480px;justify-content:center;}
     body {width:100%;}
 }
