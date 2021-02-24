@@ -2,7 +2,7 @@ let num = 45;
 let tableauLines = [num];
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(375, 375);
 // for linesMovin()
   // for (let n = 0; n < num; n++) {
   //   tableauLines[n] = height / num * n;
@@ -24,7 +24,7 @@ function draw() {
     ellipse(0, 0, tableauLines[n] - p, tableauLines[n] - p);
     }
     tableauLines[n] += 5;
-    if (tableauLines[n] - 400 > height) {
+    if (tableauLines[n] - 375 > height) {
       tableauLines[n] = 0;
     }
   }
