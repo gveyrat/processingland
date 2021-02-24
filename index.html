@@ -18,30 +18,36 @@
 <h2>front-end dev // designer</h2>
         </div>
         <div id="sunset">
-            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="sunset.html" onLoad="injectJS()">
+            <iframe frameBorder="0" id="myFrame" style="width:100%;height:100%;" scrolling="no" src="sunset.html" loading="lazy" onLoad="injectJS()">
           </iframe>
         </div>
         <div id="points">
-            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="points.html" onLoad="injectJS()">
+            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="points.html">
           </iframe>
         </div>
         <div id="strokes">
-            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="strokes.html" onLoad="injectJS()">
+            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="strokes.html">
           </iframe>
         </div>
         <div id="circles">
-            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="circles.html" onLoad="injectJS()">
+            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="circles.html">
+          </iframe>
+        </div>
+        <div id="planet">
+            <iframe frameBorder="0" class="myFrame" style="width:100%;height:100%;" scrolling="no" src="planet.html">
           </iframe>
         </div>
     </section>
     
+<!--
     <script>
         function injectJS() {
-    var iframe = document.getElementsByClassName("myFrame");
+    var iframe = document.getElementById("myFrame");
 var elmnt = iframe.contentWindow.document.getElementsByTagName("body")[0];
-elmnt.style.margin = "0";            
+elmnt.style.margin = "0";
         }
     </script>
+-->
 
 </body>
 </html>

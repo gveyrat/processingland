@@ -1,10 +1,10 @@
 html, body {margin:0;}
 body {background:#000;color:#FFF;}
-h1 {font-family:"Arial Bold"}
+h1 {font-family: Arial Black,Arial Bold,Gadget,sans-serif; }
 body { font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;}
 
 #mainContent {display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;max-width:1200px;margin:0 auto;}
-#mainContent div {width:400px;height:400px;}
+#mainContent div {width:375px;height:375px;}
 iframe body {margin:0;}
 
 #un {display:flex;flex-direction:column;justify-content:center;align-items:center;}

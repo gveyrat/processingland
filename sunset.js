@@ -2,7 +2,7 @@ let num = 45;
 let tableauLines = [num];
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(375, 375);
 
   for (let n = 0; n < num; n++) {
     tableauLines[n] = height / num * n;
@@ -13,7 +13,7 @@ function draw() {
   background(0);
 
   for (let n = 0; n < num; n++) {
-    let colorValue = map(tableauLines[n], 0, 400, 255, 80);
+    let colorValue = map(tableauLines[n], 0, 375, 255, 80);
     stroke(colorValue, 0, 255);
     strokeWeight(5);
     line(0, tableauLines[n], width, tableauLines[n]);
@@ -24,7 +24,6 @@ function draw() {
   }
   
   push();
-  rectMode(CENTER);
   noFill();
   stroke(0);
   strokeWeight(150)

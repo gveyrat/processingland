@@ -6,7 +6,7 @@ let aa = 0;
 let oo = 50;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(375, 375);
 }
 
 function draw() {
